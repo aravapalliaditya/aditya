@@ -1,0 +1,18 @@
+=============================================================================
+Modified By		:Vijeesh
+Created On		:06-06-2017
+Notes			: Added Screen for User Configuration and Made changes in Quality Plan and Inward Inspection
+==============================================================================
+=============================================================================
+Modified By		:Vijeesh
+Created On		:08-06-2017
+Notes			: Added Screen for User Configuration and Made changes in Quality Plan and Inward Inspection
+			  Changes in Screen Final Inspection has been done. Not yet Coded.
+==============================================================================
+=============================================================================
+Modified By		:Vijeesh
+Created On		:09-06-2017
+Notes			:Added Screen for User Configuration and Made changes in Quality Plan and Inward Inspection
+			 Changes in Screen Final Inspection has been done. Not yet Coded.
+			 Accepted & Rejected Qty included in Final Inspection and that has been updating in Production Order 
+==============================================================================

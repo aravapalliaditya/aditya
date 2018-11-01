@@ -1,0 +1,64 @@
+C:\Users\ikyam3\AppData\Local\Temporary Projects\SOSequencing\bin\Debug\SOSequencing.exe
+C:\Users\ikyam3\AppData\Local\Temporary Projects\SOSequencing\bin\Debug\SOSequencing.pdb
+C:\Users\ikyam3\AppData\Local\Temporary Projects\SOSequencing\obj\x86\Debug\SOSequencing.SOSeq.resources
+C:\Users\ikyam3\AppData\Local\Temporary Projects\SOSequencing\obj\x86\Debug\SOSequencing.Properties.Resources.resources
+C:\Users\ikyam3\AppData\Local\Temporary Projects\SOSequencing\obj\x86\Debug\SOSequencing.csproj.GenerateResource.Cache
+C:\Users\ikyam3\AppData\Local\Temporary Projects\SOSequencing\obj\x86\Debug\SOSequencing.exe
+C:\Users\ikyam3\AppData\Local\Temporary Projects\SOSequencing\obj\x86\Debug\SOSequencing.pdb
+E:\[Ikyam]\SC\02-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\SOSequencing.exe
+E:\[Ikyam]\SC\02-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\SOSequencing.pdb
+E:\[Ikyam]\SC\02-11-2017\SOSequencing\SOSequencing\bin\Debug\SOSequencing.exe
+E:\[Ikyam]\SC\02-11-2017\SOSequencing\SOSequencing\bin\Debug\SOSequencing.pdb
+E:\[Ikyam]\SC\02-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\SOSequencing.Properties.Resources.resources
+E:\[Ikyam]\SC\02-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\SOSequencing.csproj.GenerateResource.Cache
+E:\[Ikyam]\SC\02-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\SOSequencing.frmSOSeq.resources
+E:\[Ikyam]\SC\02-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\[Ikyam]\SC\02-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\Interop.SAPbouiCOM.dll
+E:\[Ikyam]\SC\02-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\SOSequencing.csproj.ResolveComReference.cache
+E:\[Ikyam]\SC\03-11-2017\SOSequencing\SOSequencing\bin\Debug\SOSequencing.exe.config
+E:\[Ikyam]\SC\03-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\[Ikyam]\SC\03-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\Interop.SAPbouiCOM.dll
+E:\[Ikyam]\SC\03-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\SOSequencing.csproj.ResolveComReference.cache
+E:\[Ikyam]\SC\03-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\SOSequencing.exe
+E:\[Ikyam]\SC\03-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\SOSequencing.pdb
+E:\[Ikyam]\SC\03-11-2017\SOSequencing\SOSequencing\bin\Debug\SOSequencing.exe
+E:\[Ikyam]\SC\03-11-2017\SOSequencing\SOSequencing\bin\Debug\SOSequencing.pdb
+E:\[Ikyam]\SC\03-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\SOSequencing.csprojResolveAssemblyReference.cache
+E:\[Ikyam]\SC\03-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\SOSequencing.Properties.Resources.resources
+E:\[Ikyam]\SC\03-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\SOSequencing.csproj.GenerateResource.Cache
+E:\[Ikyam]\SC\03-11-2017\SOSequencing\SOSequencing\obj\x86\Debug\SOSequencing.frmSOSeq.resources
+E:\[Ikyam]\SC\04-11-2017\IK_PRODUCTION_04_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\bin\Debug\SOSequencing.exe.config
+E:\[Ikyam]\SC\04-11-2017\IK_PRODUCTION_04_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\[Ikyam]\SC\04-11-2017\IK_PRODUCTION_04_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\Interop.SAPbouiCOM.dll
+E:\[Ikyam]\SC\04-11-2017\IK_PRODUCTION_04_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.csproj.ResolveComReference.cache
+E:\[Ikyam]\SC\04-11-2017\IK_PRODUCTION_04_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.exe
+E:\[Ikyam]\SC\04-11-2017\IK_PRODUCTION_04_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.pdb
+E:\[Ikyam]\SC\04-11-2017\IK_PRODUCTION_04_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\bin\Debug\SOSequencing.exe
+E:\[Ikyam]\SC\04-11-2017\IK_PRODUCTION_04_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.csprojResolveAssemblyReference.cache
+E:\[Ikyam]\SC\04-11-2017\IK_PRODUCTION_04_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.frmSOSeq.resources
+E:\[Ikyam]\SC\04-11-2017\IK_PRODUCTION_04_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.Properties.Resources.resources
+E:\[Ikyam]\SC\04-11-2017\IK_PRODUCTION_04_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.csproj.GenerateResource.Cache
+E:\[Ikyam]\SC\06-11-2017\IK_PRODUCTION_06_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\bin\Debug\SOSequencing.exe.config
+E:\[Ikyam]\SC\06-11-2017\IK_PRODUCTION_06_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\[Ikyam]\SC\06-11-2017\IK_PRODUCTION_06_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\Interop.SAPbouiCOM.dll
+E:\[Ikyam]\SC\06-11-2017\IK_PRODUCTION_06_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.csproj.ResolveComReference.cache
+E:\[Ikyam]\SC\06-11-2017\IK_PRODUCTION_06_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.exe
+E:\[Ikyam]\SC\06-11-2017\IK_PRODUCTION_06_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.pdb
+E:\[Ikyam]\SC\06-11-2017\IK_PRODUCTION_06_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\bin\Debug\SOSequencing.exe
+E:\[Ikyam]\SC\06-11-2017\IK_PRODUCTION_06_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.csprojResolveAssemblyReference.cache
+E:\[Ikyam]\SC\06-11-2017\IK_PRODUCTION_06_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.frmSOSeq.resources
+E:\[Ikyam]\SC\06-11-2017\IK_PRODUCTION_06_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.Properties.Resources.resources
+E:\[Ikyam]\SC\06-11-2017\IK_PRODUCTION_06_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.csproj.GenerateResource.Cache
+E:\[Ikyam]\SC\06-11-2017\IK_PRODUCTION_06_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\bin\Debug\SOSequencing.pdb
+E:\[Ikyam]\SC\10-11-2017\IK_PRODUCTION_10_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\bin\Debug\SOSequencing.exe.config
+E:\[Ikyam]\SC\10-11-2017\IK_PRODUCTION_10_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\[Ikyam]\SC\10-11-2017\IK_PRODUCTION_10_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\Interop.SAPbouiCOM.dll
+E:\[Ikyam]\SC\10-11-2017\IK_PRODUCTION_10_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.csproj.ResolveComReference.cache
+E:\[Ikyam]\SC\10-11-2017\IK_PRODUCTION_10_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.exe
+E:\[Ikyam]\SC\10-11-2017\IK_PRODUCTION_10_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.pdb
+E:\[Ikyam]\SC\10-11-2017\IK_PRODUCTION_10_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\bin\Debug\SOSequencing.exe
+E:\[Ikyam]\SC\10-11-2017\IK_PRODUCTION_10_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\bin\Debug\SOSequencing.pdb
+E:\[Ikyam]\SC\10-11-2017\IK_PRODUCTION_10_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.csprojResolveAssemblyReference.cache
+E:\[Ikyam]\SC\10-11-2017\IK_PRODUCTION_10_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.frmSOSeq.resources
+E:\[Ikyam]\SC\10-11-2017\IK_PRODUCTION_10_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.Properties.Resources.resources
+E:\[Ikyam]\SC\10-11-2017\IK_PRODUCTION_10_OCT_2017\bin\Debug\SOSequencing_NOV_4\SOSequencing\obj\x86\Debug\SOSequencing.csproj.GenerateResource.Cache

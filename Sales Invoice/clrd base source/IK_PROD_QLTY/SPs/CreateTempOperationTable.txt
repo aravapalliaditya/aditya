@@ -1,0 +1,12 @@
+Create Table "TEMP_OPERATION"
+(
+"OprtCod" NVARCHAR(50),
+"OprtNm" NVARCHAR(100),
+"PrdQty" Decimal(19,2),
+"AccQty"  Decimal(19,2),
+"RejQty"  Decimal(19,2),
+"UOM" NVARCHAR(50),
+"Remarks" NVARCHAR(150),
+
+"MACId" NVARCHAR(100)
+)

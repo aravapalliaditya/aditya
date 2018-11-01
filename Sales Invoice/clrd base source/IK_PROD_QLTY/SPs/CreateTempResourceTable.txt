@@ -1,0 +1,18 @@
+create Table "TEMP_RESOURCES"
+(
+"OprtCod" NVARCHAR(50),
+"OprtNm" NVARCHAR(100),
+"ResTyp"  NVARCHAR(50),
+"ResCd"  NVARCHAR(50),
+"ResNm" NVARCHAR(100),
+"MouldN" NVARCHAR(100),
+"MouldC"  NVARCHAR(50),
+"PrdQty" Decimal(19,2),
+"AccQty" Decimal(19,2),
+"RejQty"Decimal(19,2),
+"UOM" NVARCHAR(50),
+"TSMins" INTEGER,
+"BaseLine" NVARCHAR(10),
+"LineId" NVARCHAR(10),
+"MACId"  NVARCHAR(100)
+)

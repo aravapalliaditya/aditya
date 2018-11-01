@@ -1,0 +1,144 @@
+Public Class clsSalesInvoice
+#Region "---DECLARATION---"
+    Dim objForM, OBJSUBFORM As SAPbouiCOM.Form
+    Dim objUtilities As New clsUtilities
+    Dim oCFLEvento As SAPbouiCOM.IChooseFromListEvent
+    Dim oCFL As SAPbouiCOM.ChooseFromList
+    Dim objMatrix As SAPbouiCOM.Matrix
+    Dim oGrid As SAPbouiCOM.Grid
+    Dim oDBs_Head As SAPbouiCOM.DBDataSource
+    Dim oDBs_Detail As SAPbouiCOM.DBDataSource
+    Dim sum As Double
+    Dim XYZ As Integer
+#End Region
+#Region "--Create Form--"
+    Sub CreateForm()
+        Try
+
+            objUtilities.SAPXML("SalesInvoice.xml")
+            objForM = oApplication.Forms.GetForm("SAINV", oApplication.Forms.ActiveForm.TypeCount)
+            oDBs_Head = objForM.DataSources.DBDataSources.Item("@IKOINV")
+            objMatrix = objForM.Items.Item("56").Specific
+            oDBs_Detail = objForM.DataSources.DBDataSources.Item("@IKINV1")
+
+            objMatrix.AddRow()
+            objMatrix.FlushToDataSource()
+            oDBs_Detail.SetValue("LineId", 0, objMatrix.VisualRowCount)
+            objMatrix.SetLineData(objMatrix.VisualRowCount)
+            objMatrix.Columns.Item(8).Editable = False
+            Me.DefaultForm(objForM.UniqueID)
+
+        Catch ex As Exception
+            oApplication.StatusBar.SetText(ex.Message)
+        End Try
+    End Sub
+
+#End Region
+
+#Region "------MENU EVENT----"
+    Sub MenuEvent(ByRef pVal As SAPbouiCOM.MenuEvent, ByRef BubbleEvent As Boolean)
+        Try
+            If pVal.BeforeAction = False Then
+
+
+                Select Case pVal.MenuUID
+                    Case "OINVMEC"
+                        Me.CreateForm()
+                    Case "1282"
+                        Me.CreateForm()
+                    Case "1284"
+
+                End Select
+            End If
+        Catch ex As Exception
+            oApplication.StatusBar.SetText(ex.Message)
+        End Try
+    End Sub
+
+#End Region
+#Region "--METHODS---"
+    Sub DefaultForm(ByVal FormUID As String)
+        Try
+            objForM = oApplication.Forms.Item(FormUID)
+            Dim oDBs_Head As SAPbouiCOM.DBDataSource = objForM.DataSources.DBDataSources.Item("@IKOINV")
+            Dim oDBs_Detail As SAPbouiCOM.DBDataSource = objForM.DataSources.DBDataSources.Item("@IKINV1")
+            objForM.EnableMenu("1283", False)
+            oDBs_Head = objForM.DataSources.DBDataSources.Item("@IKOINV")
+            oDBs_Head.SetValue("U_DocDate", 0, DateTime.Now.ToString("yyyyMMdd"))
+            oDBs_Head.SetValue("U_TaxDate", 0, DateTime.Now.ToString("yyyyMMdd"))
+            AutogenDocNum()
+            objForM.DataBrowser.BrowseBy = "38"
+            'AddChooseFromListItem(objForM.UniqueID)
+        Catch EX As Exception
+        End Try
+    End Sub
+    Sub AutogenDocNum()
+        Dim txtDocNum = objForM.Items.Item("38").Specific
+        txtDocNum.Value = ""
+        Try
+            Dim GetDocNum As String = "Select ""NextNumber"" from ""NNM1"" where ""ObjectCode"" ='IKOINVOBJ'"
+            Dim oRsGetDocNum As SAPbobsCOM.Recordset = oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
+            oRsGetDocNum.DoQuery(GetDocNum)
+            txtDocNum.Value = oRsGetDocNum.Fields.Item("NextNumber").Value
+        Catch ex As Exception
+            oCompany.objApplication.StatusBar.SetText(ex.Message)
+        End Try
+    End Sub
+    Sub ChooseFromListCondition(ByVal FormUID As String, ByRef pVal As SAPbouiCOM.ItemEvent)
+
+        objForM = oApplication.Forms.Item(pVal.FormUID)
+        Dim sCFL_ID As String
+        oCFLEvento = pVal
+        sCFL_ID = oCFLEvento.ChooseFromListUID
+        oCFL = objForM.ChooseFromLists.Item(sCFL_ID)
+        Dim oDataTable As SAPbouiCOM.DataTable
+        oDataTable = oCFLEvento.SelectedObjects
+        objForM = oApplication.Forms.Item(pVal.FormUID)
+        oDBs_Head = objForM.DataSources.DBDataSources.Item("@IKOINV")
+        oDBs_Detail = objForM.DataSources.DBDataSources.Item("@IKINV1")
+        objMatrix = objForM.Items.Item("56").Specific
+        If Not (oDataTable Is Nothing) And pVal.FormMode <> SAPbouiCOM.BoFormMode.fm_FIND_MODE And pVal.BeforeAction = False And pVal.ActionSuccess = True Then
+            If pVal.FormMode = SAPbouiCOM.BoFormMode.fm_OK_MODE Then objForM.Mode = SAPbouiCOM.BoFormMode.fm_UPDATE_MODE
+
+            'If (oCFL.UniqueID = "CFL_OCRD" Or oCFL.UniqueID = "CFL_OCRD1") Then
+            '    oDBs_Head.SetValue("U_CardCode", 0, oDataTable.GetValue("CardCode", 0))
+            '    oDBs_Head.SetValue("U_CardName", 0, oDataTable.GetValue("CardName", 0))
+            'End If
+
+        End If
+
+    End Sub
+    Sub FillContactPerson(ByVal FormUID As String, ByVal ItemUID As String)
+        Try
+
+            Dim objForm As SAPbouiCOM.Form = oApplication.Forms.GetForm("SAINV", oApplication.Forms.ActiveForm.TypeCount)
+            objMatrix = objForm.Items.Item("56").Specific
+            Dim objCombo As SAPbouiCOM.ComboBox
+
+            objCombo = objForm.Items.Item("cb_cntprs").Specific
+
+            'objRsrcMatrix.Columns.Item(ItemUID).Cells.Item(objRsrcMatrix.RowCount).Specific
+
+            Dim oRS As SAPbobsCOM.Recordset = oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
+            Dim qry As String = "SELECT CntctPrsn from OCRD where CardCode='" + oDBs_Head.GetValue("U_CARDCODE", 0) + "' "
+            oRS.DoQuery(qry)
+            If objCombo.ValidValues.Count > 0 Then
+                For i As Integer = objCombo.ValidValues.Count - 1 To 0 Step -1
+                    objCombo.ValidValues.Remove(i, SAPbouiCOM.BoSearchKey.psk_Index)
+                Next
+            End If
+            If objCombo.ValidValues.Count = 0 Then
+                objCombo.ValidValues.Add("", "")
+                For Row As Integer = 1 To oRS.RecordCount
+                    objCombo.ValidValues.Add(oRS.Fields.Item("CntctPrsn").Value, oRS.Fields.Item("CntctPrsn").Value)
+                    oRS.MoveNext()
+                Next
+            End If
+        Catch ex As Exception
+            'oApplication.StatusBar.SetText(ex.Message)
+        End Try
+    End Sub
+#End Region
+
+
+End Class

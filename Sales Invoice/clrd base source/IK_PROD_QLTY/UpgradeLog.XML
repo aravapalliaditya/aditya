@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="IK_DMS">
+</Property><Property Name="Solution File" Value="D:\[My Projects]\0. Generation Systems\1. Source Code\17-Sepetember-2015\IK_DMS\IK_DMS.sln">
+</Property><Property Name="Date" Value="Thursday, September 17, 2015">
+</Property><Property Name="Time" Value="16:26 PM">
+</Property></Properties><Event ErrorLevel="4" Project="IK_DMS" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="Warning: this project requires Crystal Reports, which is no longer included with Visual Studio. Please click here for more information.">
+</Event><Event ErrorLevel="0" Project="IK_DMS" Source="IK_DMS.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="IK_DMS" Source="IK_DMS.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="IK_DMS.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="IK_DMS.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="IK_DMS" Source="IK_DMS.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,32 @@
+<Application>
+  <!--<Menus>
+    <action type="add">
+      <Menu Checked="0" Enabled="1" FatherUID="43520" Position="15" String="Quality" Type="2" UniqueID="IK_QLT">
+        <Menus>
+          <Action type="add">
+            <Menu Checked="0" Enabled="1" FatherUID="IK_QLT" Position="0"  String="Parameters" Type="1" UniqueID="IK_PRMS" />
+            <Menu Checked="0" Enabled="1" FatherUID="IK_QLT" Position="1"  String="Quality Plan" Type="1" UniqueID="IK_QLTP" />
+            <Menu Checked="0" Enabled="1" FatherUID="IK_QLT" Position="2"  String="Inward Inspection" Type="1" UniqueID="IK_IWIS" />
+            <Menu Checked="0" Enabled="1" FatherUID="IK_QLT" Position="3"  String="Release QC" Type="1" UniqueID="IK_RLQC" />
+            <Menu Checked="0" Enabled="1" FatherUID="IK_QLT" Position="4"  String="In Process Inspection" Type="1" UniqueID="IK_IPIS" />
+            <Menu Checked="0" Enabled="1" FatherUID="IK_QLT" Position="5"  String="Final Inspection" Type="1" UniqueID="IK_FLIS" />
+            <Menu Checked="0" Enabled="1" FatherUID="IK_QLT" Position="6"  String="Dispatch Inspection" Type="1" UniqueID="IK_DSIS" />
+          </Action>
+        </Menus>
+      </Menu>
+    </action>
+  </Menus>-->
+
+  <Menus>
+    <action type="add">
+      <Menu Checked="0" Enabled="1" FatherUID="43520" Position="16"  String="SalesInvoice MENU FATHER" Type="2" UniqueID="OINVMEF" image="">
+        <Menus>
+          <Action type="add">
+            <Menu Checked="0" Enabled="1" FatherUID="OINVMEF" Position="1"  String="SalesInvoice MENU CHILD" Type="1" UniqueID="OINVMEC" image=""/>
+          </Action>
+        </Menus>
+      </Menu>
+    </action>
+  </Menus>
+  
+</Application>

@@ -1,0 +1,45 @@
+=============================================================================
+Deployed Addon		:IK_QUALITY_1_0_1
+Tested By		:VARSHA
+Created On		:21-03-2017
+Version			:1.0.1
+Notes			:basic errors like auto-generation of the number, navigation, default date and some other errors have been cleared.
+==============================================================================
+==============================================================================
+Deployed Addon		:IK_QUALITY_1_0_2
+Tested By		:VARSHA
+Created On		:21-03-2017
+Version			:1.0.2
+Notes			:basic errors and As per the points Mentioned in the Quality Issue Log.
+==============================================================================
+==============================================================================
+Deployed Addon		:IK_QUALITY_1_0_3
+Tested By		:VARSHA
+Created On		:27-03-2017
+Version			:1.0.3
+Notes			:basic errors and As per the points Mentioned in the Quality Issue Log.
+==============================================================================
+==============================================================================
+Deployed Addon		:IK_QUALITY_1_0_4
+Tested By		:VARSHA
+Created On		:28-03-2017
+Version			:1.0.4
+Notes			:basic errors and As per the points Mentioned in the Quality Issue Log.
+==============================================================================
+==============================================================================
+Deployed Addon		:IK_QUALITY_1_0_5
+Tested By		:VARSHA
+Created On		:10-04-2017
+Version			:1.0.5
+Notes			:basic errors and As per the points Mentioned in the Quality Issue Log.
+==============================================================================
+==============================================================================
+Deployed Addon		:IK_QUALITY_T_1_0
+Tested By		:VARSHA
+Created On		:10-04-2017
+Version			:1.0
+Notes			:First Release for Venkatesh. Resolved the Issue log points also
+==============================================================================
+
+
+

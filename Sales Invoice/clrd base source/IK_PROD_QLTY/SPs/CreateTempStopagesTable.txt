@@ -1,0 +1,20 @@
+
+
+Create Table "TEMP_STOPAGES"
+(
+"ReasonC" NVARCHAR(50),
+"Reason" NVARCHAR(100),
+"FrmTm" NVARCHAR(100),
+"ToTm"  NVARCHAR(50),
+"TotTm"  NVARCHAR(50),
+"Remarks" NVARCHAR(100),
+"BaseLine" NVARCHAR(10),
+"OBaseLine" NVARCHAR(10),
+"LineId" NVARCHAR(10),
+"MACId"  NVARCHAR(50),
+"ResCd"  NVARCHAR(50),
+"OprtCod" NVARCHAR(50),
+"RejQty"Decimal(19,2),
+"SbRsn" NVARCHAR(100),
+"FreeTxt" NCLOB 
+)
